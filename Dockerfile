@@ -1,7 +1,7 @@
-FROM n8nio/n8n:1.91.2
+FROM n8nio/n8n
 
 # Instala herramientas MCP necesarias
 RUN npm install -g \
     firecrawl-mcp \
-    @openbnb/mcp-server-airbnb \
-    mercury-mcp
+    @openbnb/mcp-server-airbnb
+  
